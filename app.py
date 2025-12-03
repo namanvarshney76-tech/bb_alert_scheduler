@@ -55,17 +55,17 @@ class BigBasketScheduler:
             'gmail': {
                 'sender': 'alerts@bigbasket.com',
                 'search_term': 'GRN',
-                'days_back': 2,
-                'max_results': 5,
+                'days_back': 7,
+                'max_results': 1000,
                 'gdrive_folder_id': '1l5L9IdQ8WcV6AZ04JCeuyxvbNkLPJnHt'
             },
             'excel': {
                 'excel_folder_id': '1dQnXXscJsHnl9Ue-zcDazGLQuXAxIUQG',
                 'spreadsheet_id': '170WUaPhkuxCezywEqZXJtHRw3my3rpjB9lJOvfLTeKM',
-                'sheet_name': 'test',
+                'sheet_name': 'bbalertgrn',
                 'summary_sheet_name': 'alert_workflow_log',
                 'header_row': 0,
-                'days_back': 2,
+                'days_back': 7,
                 'max_files': 1000
             },
             'notification': {
@@ -1382,4 +1382,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
