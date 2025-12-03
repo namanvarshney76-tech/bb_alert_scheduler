@@ -1,12 +1,10 @@
-# Credentials - NEVER commit these
+# Credentials - NEVER COMMIT
 credentials.json
 token.json
 
 # Logs
 *.log
-blinkit_hot_scheduler.log
-instamart_scheduler.log
-bb_automation.log
+bigbasket_automation.log
 
 # Python
 __pycache__/
@@ -14,8 +12,6 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
-
-# Virtual environments
 venv/
 env/
 ENV/
@@ -33,45 +29,3 @@ Thumbs.db
 # Temporary files
 *.tmp
 temp/
-
-# GitHub Actions
-.github/workflows/*.yml
-!/.github/workflows/bigbasket_scheduler.yml# Credentials - NEVER commit these
-credentials.json
-token.json
-
-# Logs
-*.log
-blinkit_hot_scheduler.log
-instamart_scheduler.log
-bb_automation.log
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-
-# Virtual environments
-venv/
-env/
-ENV/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Temporary files
-*.tmp
-temp/
-
-# GitHub Actions
-.github/workflows/*.yml
-!/.github/workflows/bigbasket_scheduler.yml
